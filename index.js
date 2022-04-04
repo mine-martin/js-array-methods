@@ -1,3 +1,6 @@
+//filter array method
+//Array -> [filter] -> filtered value
+
 const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let result = nums.filter((num) => {
