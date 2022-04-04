@@ -1,10 +1,9 @@
-//filter array method
-//Array -> [filter] -> filtered value
+//forEach function
+//forEach is a method that takes a function as an argument
 
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const fruits = ['apple', 'banana', 'orange', 'pineapple', 'pear'];
 
-let result = nums.filter((num) => {
-  return num % 2 == 0; //returns even numbers
+let newFruits = fruits.forEach((fruit, index) => {
+  // console.log();
+  console.log('the index of ' + fruit + ' is ' + index);
 });
-
-console.log(result); //returns [2, 4, 6, 8, 10]
