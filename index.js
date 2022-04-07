@@ -1,12 +1,6 @@
-//javascript array functions/methods
-//map function
+//pop method
 
-const nums = [1, 2, 3, 4, 5, 6];
+const laptops = ['macbook', 'lenovo', 'hp', 'dell', 'acer', 'acer', 'samsung'];
 
-//map through the array and return the square of each element
-let newArr = nums.map((num, index) => {
-  //return each array element squared
-  return num * num;
-});
-
-// console.log(newArr);
+laptops.pop(); //removes the last element
+console.log(laptops); //['macbook', 'lenovo','hp','dell','acer','hp','lanovo','acer']
